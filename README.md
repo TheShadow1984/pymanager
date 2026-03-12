@@ -59,7 +59,6 @@ Start the application (replace with the actual entry point file if different):
 python main.py
 ```
 
-If the project uses a module/GUI entrypoint, update the command accordingly (e.g., `python -m pymanager` or run the appropriate script).
 
 Usage / Examples
 
@@ -74,7 +73,6 @@ Known Issues / Current Bugs
 
 - Can't scroll
 
-(Original note preserved: "Can't scroll")
 
 Please open an issue with steps to reproduce, platform (OS), and Python version.
 
@@ -117,14 +115,3 @@ If you encounter issues or want to request features, please open an issue in the
 - Steps to reproduce
 - OS and Python version
 - Screenshots or logs (if available)
-
-Appendix
-
-Original README content preserved below for reference:
-
-# pymanager
-Filemanager written in Python (Still being processed).
-At the current state of the Software you can see any Folder and File on your Computer. The current path is shown in the top center but you can't edit it for now. This feature will be added. Also, you have a exit and a back button and you can open and read files like txt py or similar. More files and a write mode will be added soon. New design is also being processed.
-
-Current Bugs:
-- Can't scroll
