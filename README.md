@@ -6,8 +6,6 @@ Currently pymanager lets you browse folders and files on your computer and open/
 
 Badges
 
-(Place build/test/coverage/license badges here) e.g.
-
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
