@@ -2,7 +2,7 @@
 
 A lightweight file manager written in Python (work in progress).
 
-Currently pymanager lets you browse folders and files on your computer and open/read simple text files (e.g. .txt, .py). The current path is shown in the top center. Basic navigation (back) and exit are available. Additional features planned: editable path, write mode, support for more file types, improved UI/UX and new design.
+Currently pymanager lets you browse folders and files on your computer and open/read simple text files (e.g. .txt, .py). The current path is shown in the top center. Basic navigation (back) and exit are available. Additional features planned: editable path, write mode, support for more file types, improved UI/UX and new design. Doesn't work on Linux!
 
 Badges
 
@@ -15,13 +15,17 @@ Features
 - Display of current path in the top center.
 - Open and read plain text files (.txt, .py, etc.).
 - Navigation: Back and Exit buttons.
+- Editable path input.
+- File write/edit mode.
+- Improved UI and design updates.
 
 Planned
 
-- Editable path input.
-- File write/edit mode.
 - Support for more file formats and previews.
-- Improved UI and design updates.
+- Support for Linux
+- Scrollable text and file Space
+- File Info (Metadata usw.)
+
 
 Screenshots
 
@@ -38,16 +42,9 @@ git clone https://github.com/<your-username>/pymanager.git
 cd pymanager
 ```
 
-2. (Recommended) Create a virtual environment and install dependencies:
+2. (Recommended) Install dependencies:
 
-```bash
-python -m venv .venv
-source .venv/bin/activate   # macOS / Linux
-.venv\Scripts\activate     # Windows
-pip install -r requirements.txt
-```
-
-If there is no requirements.txt, install the packages used by the project (add requirements.txt to the repo).
+All packages used are integrated in python.
 
 Run Locally
 
@@ -61,15 +58,16 @@ python main.py
 Usage / Examples
 
 - Browse folders using the GUI.
-- Click a file (e.g., example.py or notes.txt) to open and read its contents in the viewer.
+- Click a file (e.g., example.py or notes.txt) to open and read or edit its contents in the viewer.
 
 Notes:
-- The path display is read-only for now.
+- The whole programm doesn't render correct on Linux
 - To test opening files, place a sample .txt or .py file in a folder and navigate to it in pymanager.
 
 Known Issues / Current Bugs
 
 - Can't scroll
+- Doesn't work on Linux
 
 
 Please open an issue with steps to reproduce, platform (OS), and Python version.
@@ -88,24 +86,23 @@ Please add a CONTRIBUTING.md file with repo-specific guidelines.
 
 License
 
-No license file is included in the original README. Add a LICENSE file to make the project's license explicit. A common choice is the MIT License. Example badge above can be updated once a license is added.
+MIT License
 
 Authors
 
-- Project author: (add your name and contact information here)
+- Project author: Shadow
 
-Add a CONTRIBUTORS or AUTHORS file if there are multiple contributors.
 
 Roadmap
 
 Short-term:
 - Fix scrolling issue.
-- Add editable path input and write mode.
-- Add more file previews.
+- Add more file infos.
 
 Long-term:
 - Polished UI/UX and new design.
 - Packaging and installer for multiple platforms.
+- Add Linux support.
 
 Support
 
