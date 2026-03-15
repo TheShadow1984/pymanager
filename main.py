@@ -41,7 +41,7 @@ def errorHandeling(e):
         errorHandler = tk.Label(textSpace, text=errorMessage, bg="white", fg="black")
         errorHandler.place(x=element_x)
 
-def chDir(event):
+def chDir():
     path = nav.get()
     try:
         os.chdir(path)
