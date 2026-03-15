@@ -110,3 +110,4 @@ If you encounter issues or want to request features, please open an issue in the
 - Steps to reproduce
 - OS and Python version
 - Screenshots or logs (if available)
+
